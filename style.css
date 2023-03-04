@@ -1,0 +1,129 @@
+body {
+  background-color: black;
+  background-image: url("./images/hyd2.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 1.3ms ease-in-out;
+  backdrop-filter: blur(5px);
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.main-para {
+  color: white;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+#conatiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  width: 50%;
+  margin: auto;
+}
+
+.link {
+  color: white;
+}
+
+.link:hover {
+  font-weight: bold;
+  color: red;
+}
+
+.feedback {
+  display: flex;
+  color: red;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.submitBtn {
+  color: white;
+  background-color: transparent;
+  border-radius: 5px;
+  margin: auto;
+  border-radius: none;
+  cursor: pointer;
+  transition: 1.3ms ease-in-out;
+  font-weight: bold;
+  font-size: 1em;
+  margin: 10px;
+  padding: 10px;
+  animation: blink 1s ease-in-out infinite;
+}
+.submitBtn:hover {
+  background-color: red;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.form > label {
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 10px;
+}
+.name,
+.Fname,
+.Contact,
+.Email {
+  background-color: transparent;
+  height: 50px;
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 1em;
+  margin: 10px;
+  padding: 5px;
+}
+
+.name,
+.Fname,
+.Contact,
+.Email :focus {
+  color: white;
+}
+
+#container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  width: 50%;
+  margin: auto;
+}
+.name::placeholder {
+  color: white;
+}
+
+.Fname::placeholder {
+  color: white;
+}
+
+.Contact::placeholder {
+  color: white;
+}
+
+.Email::placeholder {
+  color: white;
+}
